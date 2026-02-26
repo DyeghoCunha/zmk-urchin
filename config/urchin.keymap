@@ -258,10 +258,10 @@
         symbols_2_layer {
             label = "Sym.2";
             bindings = <
-  &sk LS(SINGLE_QUOTE)  &kp UNDERSCORE  &kp MINUS             &kp AMPERSAND  &kp POUND    &none  &none  &none  &none  &none
-  &sk TILDE             &sk GRAVE       &kp NON_US_BACKSLASH  &kp PIPE       &kp SLASH    &none  &none  &none  &none  &none
-  &sk CARET             &none           &none                 &none          &kp RA(W)    &none  &none  &none  &none  &none
-                                                              &none          &none        &none  &none
+  &none  &kp UNDERSCORE  &kp MINUS             &kp AMPERSAND  &kp POUND    &none  &none  &none  &none  &none
+  &none  &sk GRAVE       &kp NON_US_BACKSLASH  &kp PIPE       &kp SLASH    &none  &none  &none  &none  &none
+  &none  &none           &none                 &none          &none        &none  &none  &none  &none  &none
+                                               &none          &none        &none  &none
             >;
         };
 
